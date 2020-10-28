@@ -1,0 +1,7 @@
+MechaCar_Table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+library(dplyr)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar_Table)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar_Table))
+Suspension_Table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+total_summary <- Suspension_Table %>% summarize(Mean_PSI = mean(PSI), Maximum_PSI = max(PSI), Minimum_PSI = min(PSI), Variance_PSI = var(PSI), Median_PSI = median(PSI), Standard_PSI = sd(PSI), .groups = 'keep')
+lot_summary <- Suspension_Table %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI = mean(PSI), Maximum_PSI = max(PSI), Minimum_PSI = min(PSI), Variance_PSI = var(PSI), Median_PSI = median(PSI), Standard_PSI = sd(PSI), .groups = 'keep')
