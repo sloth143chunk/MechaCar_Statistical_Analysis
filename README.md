@@ -6,23 +6,23 @@
 -	The slope is not 0 and shows a positive slope with about 70% of the data points falling on the line
 -	This model shows statistical significance with mpg and its relation to aspects of the car.  Shape and wind resistance on the car make sense as to why they would have an impact on how on the mpg of the car.
 
-![Linear Regression](/images/Linear_Regression.PNG)
+![Linear Regression](/Images/Linear_Regression.PNG)
 
 ## Summary Statistics on Suspension Coils
 
 -	The design of all the cars meet the requirement of not exceeding 100 pounds per square inch.  However the manufacturing lot 3 cars surpass that requirement by 100.  Further analysis could be done to see if the weight/length of the car is related to lot 3 car’s PSI being higher then the recommended variance.
 
-![Lot Summary](/images/Lot_Summary.PNG)
-![Total Summary](/images/Total_Summary.PNG)
+![Lot Summary](/Images/Lot_Summary.PNG)
+![Total Summary](/Images/Total_Summary.PNG)
 
 ## T-Tests on Suspension Coils
 
 -	With PSI across all manufacturing lots and each lot individually, there is no statistical difference from the population mean of 1,500 pounds per square inch.
 
-![All Lots](/images/All_Lots.PNG)
-![Lot 1](/images/Lot1_TTest.PNG)
-![Lot 2](/images/Lot2_TTest PNG)
-![Lot 3](/images/Lot3_TTest.PNG)
+![All Lots](/Images/All_Lots.PNG)
+![Lot 1](/Images/Lot1_TTest.PNG)
+![Lot 2](/Images/Lot2_TTest PNG)
+![Lot 3](/Images/Lot3_TTest.PNG)
 
 ## Study Design: MechaCar vs Competition
 
