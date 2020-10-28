@@ -21,7 +21,7 @@
 
 ![All Lots](/Images/All_Lots.PNG)
 ![Lot 1](/Images/Lot1_TTest.PNG)
-![Lot 2](/Images/Lot2_TTest PNG)
+![Lot 2](/Images/Lot2_TTest.PNG)
 ![Lot 3](/Images/Lot3_TTest.PNG)
 
 ## Study Design: MechaCar vs Competition
